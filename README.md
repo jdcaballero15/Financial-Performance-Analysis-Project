@@ -15,22 +15,21 @@ The objective is to simulate a real-world business scenario where a data analyst
 
 The project follows a structured data workflow separating raw data, processed data, analysis, and outputs.
 
+```plaintext
 financial-performance-analysis/
 │
 ├── data/
 │   ├── raw/              # Original dataset (unchanged)
-│   ├── processed/        # Cleaned and transformed datasets
+│   └── processed/        # Cleaned and transformed datasets
 │
 ├── notebooks/            # Exploratory analysis and development
-│
 ├── src/                  # Reusable Python scripts (ETL logic)
-│
 ├── dashboard/            # BI dashboards (Power BI / Looker Studio)
-│
 ├── images/               # Visual assets used in README (charts, previews)
 │
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
+```
 
 
 ## 🧠 Business Problem
