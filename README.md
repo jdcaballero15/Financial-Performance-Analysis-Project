@@ -90,6 +90,30 @@ Performed using Python (pandas):
 
 ---
 
+## 📊 Key Visualizations
+
+### Revenue vs Budget
+This chart compares actual revenue against planned targets, helping identify periods of underperformance or overachievement.
+
+![Revenue vs Budget](images/revenue_vs_budget.png)
+
+---
+
+### Profit Trend
+Shows how profitability evolves over time, highlighting the impact of costs and expenses on business performance.
+
+![Profit Trend](images/profit_trend.png)
+
+---
+
+### Revenue Forecast
+A simple forecasting model projecting future revenue based on historical trends.
+
+![Forecast](images/forecast.png)
+
+---
+
+
 ## 🔮 Forecasting
 A simple Linear Regression model was implemented to forecast revenue for the next 3 months.
 
