@@ -32,6 +32,7 @@ financial-performance-analysis/
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 
+
 ## 🧠 Business Problem
 Companies need to understand:
 - Are we meeting our financial targets?
