@@ -127,11 +127,11 @@ Purpose:
 
 - Python (pandas, numpy, matplotlib)
 - Jupyter Notebook
-- (Optional) Power BI / Looker Studio
+- Power BI 
 
 ---
 
-## 📊 Dashboard (Coming Soon)
+## 📊 Dashboard 
 Planned dashboard will include:
 - KPI cards (Revenue, Profit, Margin, Variance)
 - Revenue vs Budget trend
