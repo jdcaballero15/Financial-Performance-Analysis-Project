@@ -1,0 +1,98 @@
+# 📊 Financial Performance Analysis & Forecasting
+
+## 🚀 Project Overview
+This project analyzes the financial performance of a company using historical data on revenue, costs, expenses, and budget.
+
+The objective is to simulate a real-world business scenario where a data analyst supports decision-making through:
+- financial metrics
+- variance analysis
+- trend analysis
+- forecasting
+
+---
+
+## 🧠 Business Problem
+Companies need to understand:
+- Are we meeting our financial targets?
+- Where are we losing money?
+- How is profitability evolving?
+- What should we expect in the next months?
+
+This project answers these questions using data.
+
+---
+
+## 📂 Dataset
+The dataset contains monthly financial data:
+
+| Column | Description |
+|------|------------|
+| date | Month |
+| revenue | Total income |
+| cost | Cost of goods/services |
+| expenses | Operating expenses |
+| budget_revenue | Planned revenue |
+
+### ⚠️ Data Issues (intentional)
+To simulate real-world scenarios:
+- Missing values
+- Inconsistent date format
+- Outliers in cost
+
+---
+
+## 🧹 Data Cleaning
+Performed using Python (pandas):
+- Date standardization
+- Missing value interpolation
+- Outlier detection (IQR method)
+- Winsorization of extreme values
+
+---
+
+## 📊 Key Metrics (Feature Engineering)
+
+- **Profit** = Revenue - Cost - Expenses  
+- **Margin** = Profit / Revenue  
+- **Variance** = Actual Revenue - Budget  
+- **Variance %**  
+
+---
+
+## 📈 Analysis
+
+### Key insights:
+- Identification of underperforming months
+- Budget vs Actual comparison
+- Profitability trends over time
+- Impact of costs and expenses on margins
+
+---
+
+## 🔮 Forecasting
+A simple Linear Regression model was implemented to forecast revenue for the next 3 months.
+
+Purpose:
+- Demonstrate planning support capability
+- Simulate basic financial forecasting
+
+---
+
+## 🛠️ Tech Stack
+
+- Python (pandas, numpy, matplotlib)
+- Jupyter Notebook
+- (Optional) Power BI / Looker Studio
+
+---
+
+## 📊 Dashboard (Coming Soon)
+Planned dashboard will include:
+- KPI cards (Revenue, Profit, Margin, Variance)
+- Revenue vs Budget trend
+- Monthly variance analysis
+- Profit evolution
+
+---
+
+## 📁 Project Structure
